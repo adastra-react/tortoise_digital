@@ -1,0 +1,17 @@
+.footer{
+    height: 600px;
+    background: whitesmoke;
+
+}
+
+.footer-top-info-section{
+    display: flex;
+}
+
+.footer-container{
+  background: white;
+}
+
+.social-icon{
+    height: 30px;
+}

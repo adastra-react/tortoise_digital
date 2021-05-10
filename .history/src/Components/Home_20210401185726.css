@@ -1,0 +1,15 @@
+@font-face{
+    src: url(../Assets//Fonts//Modulus-www.Dfonts.org/Modulus_Medium.ttf);
+    font-family: Modulus-medium;
+}
+
+.landing-section-title{
+    font-size: 120px;
+    font-family: Modulus-medium;
+}
+
+.landing-section{
+    padding-left: 70px;
+    background-color: wheat;
+}
+

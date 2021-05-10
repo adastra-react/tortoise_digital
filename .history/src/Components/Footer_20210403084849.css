@@ -1,0 +1,30 @@
+.footer{
+    height: 600px;
+    background: whitesmoke;
+    padding: 50px;
+}
+
+.footer-top-info-section{
+    display: flex;
+    justify-content:space-a;
+    align-items: center;
+    background-color: red;
+    flex: 1;
+}
+
+.footer-bottom-info-section{
+    flex: 1;
+    background: blue;
+}
+
+.footer-container{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+}
+
+.social-icon{
+    height: 30px;
+}

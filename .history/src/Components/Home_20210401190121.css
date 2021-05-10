@@ -1,0 +1,25 @@
+@font-face{
+    src: url(../Assets//Fonts//Modulus-www.Dfonts.org/Modulus_Medium.ttf);
+    font-family: Modulus-medium;
+}
+
+.home{
+ 
+ 
+}
+
+.landing-section-title{
+    font-size: 120px;
+    font-family: Modulus-medium;
+    position: absolute;
+    bottom: 0;
+}
+
+.landing-section{
+    background-color: tomato;
+    position: relative;
+    padding-left: 70px;
+    /* background-color: ; */
+    height: 75vh;
+}
+

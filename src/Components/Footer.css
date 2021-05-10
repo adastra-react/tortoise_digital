@@ -1,0 +1,94 @@
+@font-face{
+    src: url(../Assets//Fonts//Modulus-www.Dfonts.org/Modulus-Bold.otf);
+    font-family: Modulus-bold;
+}
+
+.footer{
+    height: 600px;
+    /* background: whitesmoke; */
+    /* padding: 50px; */
+    position: relative;
+}
+
+.footer-top-info-section{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* background-color: red; */
+    flex: 1;
+}
+
+.footer-bottom-info-section{
+    flex: 1;
+    /* background: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-heading{
+    font-family: Modulus-bold;
+    font-weight: 1400;
+    font-size: 40px;
+    background-clip: text;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.social-cont{
+    width: 200px;
+    display: flex;
+    justify-content:space-around
+}
+
+.footer-sub-heading{
+    font-family:  Modulus-bold;
+    opacity: .7;
+}
+
+.footer-container{
+  /* background: white; */
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+}
+
+.social-icon{
+    height: 30px;
+}
+
+#particle-footer canvas{
+     position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.contact-link{
+    font-family: Modulus-bold;
+    opacity: .7;
+}
+
+.email-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1164px) {
+    .footer-top-info-section, .footer-bottom-info-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1164px) {
+    
+}

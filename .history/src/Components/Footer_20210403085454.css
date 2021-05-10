@@ -1,0 +1,49 @@
+@font-face{
+    src: url(../Assets//Fonts//Modulus-www.Dfonts.org/Modulus-Bold.otf);
+    font-family: Modulus-bold;
+}
+
+.footer{
+    height: 600px;
+    background: whitesmoke;
+    padding: 50px;
+}
+
+.footer-top-info-section{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* background-color: red; */
+    flex: 1;
+}
+
+.footer-bottom-info-section{
+    flex: 1;
+    /* background: blue; */
+}
+
+.footer-heading{
+    font-family: Modulus-bold;
+    font-weight: 1400;
+    font-size: 40px;
+}
+
+.social-cont{
+    width: 300px:
+}
+
+.footer-sub-heading{
+    font-family:  Modulus-bold;
+}
+
+.footer-container{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+}
+
+.social-icon{
+    height: 30px;
+}

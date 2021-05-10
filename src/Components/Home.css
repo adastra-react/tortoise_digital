@@ -1,0 +1,433 @@
+@font-face{
+    src: url(../Assets//Fonts//Modulus-www.Dfonts.org/Modulus-Bold.otf);
+    font-family: Modulus-bold;
+}
+
+.home{
+ overflow: hidden;
+ 
+}
+
+.landing-section-title{
+    font-size: 130px;
+    font-family: Modulus-bold;
+    font-weight: 900;
+    letter-spacing: -px;
+    /* position: absolute; */
+    bottom: 150px;
+    background-clip: text;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.landing-section-sub-text{
+    font-family: Modulus-bold;
+    font-size: 35px;
+    font-weight: 800;
+    opacity: .5;
+}
+
+.landing-section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    /* background-color: ; */
+    height: 79vh;
+}
+
+#particle-cont canvas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.featured_projects_link{
+    height: 100%;
+    width: 100%;
+}
+
+ /* style= */
+
+.featured-projects-cont{
+    padding-top: 300px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 60px;
+    /* background-image: url(../Assets/Images/small-tiny-pattern-abstract-polka-dot-background-186451468.jpg);
+    background-size: contain;
+    background-repeat: repeat; */
+    
+}
+
+.f-p-title, .f-p-sub-title{
+    font-family: Modulus-bold;
+}
+
+.f-p-title{
+    font-size: 70px;
+}
+
+.f-p-sub-title{
+    font-size: 30px;
+    opacity: .5;
+}
+
+.projects-cont{
+    /* background-color: blanchedalmond; */
+}
+
+.top-display, .bottom-display{
+    display: flex;
+    padding: 20px 0;
+}
+
+.showcase-1{
+    /* background-color: aqua; */
+    height: 600px;
+    flex: 3;
+    padding: 10px 10px;
+}
+
+.showcase-1 > div{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.showcase-2 > div{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.showcase-cont-large > div{
+    visibility: ;
+}
+
+.showcase-cont-large > div:{
+    visibility: hidden;
+}
+
+.showcase-2{
+    /* background-color: black; */
+    height: 400px;
+    flex: 2;
+    padding: 10px 10px;
+   
+}
+
+.showcase-2-bottom > div {
+    background-image: url(../Assets/Images/coast_sider.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.showcase-2-top > div {
+    background-image: url(../Assets/Images/comet_project.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.showcase-2-top{
+    margin-top: auto;
+    
+}
+
+.showcase-1-top > div{
+    background-image: url(../Assets/Images//endangered.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/* .showcase-1-top > div:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Assets/Images/iphone-xr-mockup.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} */
+
+.showcase-1-bottom > div{
+    background-image: url(../Assets/Images/macbook-pro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/* .showcase-1-bottom > div:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Assets/Images/macbook-pro.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} */
+
+.category-cont, .detail-link-cont{
+    padding-left: 40px;
+}
+
+.category-txt{
+    color: #4cffca;
+    font-family: Modulus-bold;
+}
+
+.showcase-title{
+    color: white;
+    font-family: Modulus-bold;
+}
+
+.showcase-link{
+    color: white;
+    font-family: Modulus-bold;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 10px 10px;
+}
+
+.services-card-cont{
+    /* background-color: green; */
+    padding: 10px 70px;
+    height: 600px;
+}
+
+.service-bar{
+    /* background-color: greenyellow; */
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.img-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.card-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-title > h2{
+    font-family: Modulus-bold;
+    font-weight: bolder;
+}
+
+.card-cont{
+    padding: 10px 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: space-evenly;
+    height: 100%;
+    flex: 1;
+    /* background-color: khaki; */
+}
+
+.card-desc{
+    /* background-color: ivory; */
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.card-desc > p{
+    font-family: Modulus-bold;
+    font-size: 20px;
+}
+
+.contact-banner{
+    /* background-color: whitesmoke; */
+    height: 200px;
+    padding: 5px 70px;
+}
+
+.spacer-1{
+    height: 200px;
+}
+
+.inner-container{
+  background-color: whitesmoke;
+  height: 100%;
+  border-radius:20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+}
+
+.cont-banner-txt > h2{
+    font-family: Modulus-bold;
+    font-size: 30px;
+}
+
+.cont-banner-txt > p{
+    font-family: Modulus-bold;
+    font-size: 20px;
+    opacity: .6;
+}
+
+.contact-us-btn{
+    text-decoration: none;
+    font-family: Modulus-bold;
+    font-size: 20px;
+    color: black;
+    border: 5px solid black;
+    padding: 0px 80px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 1164px) {
+
+    .cont-banner-txt > h2{
+        font-size: 30px;
+    }
+
+
+    .inner-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .featured-projects-cont{
+        padding-top: 30px ;
+    }
+
+    .top-display, .bottom-display{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .service-bar{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-color: white;
+    }
+
+    .services-card-cont{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .landing-section-title{
+        font-size: 100px;
+    }
+
+    #particle-cont canvas{
+        height: 650px !important;
+    }
+
+    .landing-section{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        /* background-color: red; */
+        /* opacity: .3; */
+        padding: 0 20px;
+        /* height: 400px; */
+        
+    }
+
+    .landing-section > div{
+        /* background-color: blanchedalmond; */
+    }
+
+    .landing-section-sub-text{
+        font-size: 20px;
+    }
+
+    .showcase-1, .showcase-2, .showcase-2-bottom, .showcase-1-top{
+        height: 220px;
+    }
+  }
+
+  @media only screen and (max-width: 710px) {
+      .landing-section-title{
+          font-size: 80px;
+      }
+  }
+
+  @media only screen and (max-width: 580px) {
+    .img-cont > img{
+        height: 100px;
+    }
+
+    .card-title, .card-desc{
+        text-align: center;
+    }
+
+    .cont-banner-txt > h2{
+        font-size: 20px;
+    }
+
+    .cont-banner-txt > h2{
+        font-size: 16px;
+    }
+
+    .contact-us-btn{
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+    .contact-banner{
+        padding: 10px;
+    }
+    
+}
+
+  @media only screen and (max-width: 406px) {
+    .landing-section-title{
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 466px) {
+    .f-p-cont{
+        padding: 0;
+        text-align: center;
+    }
+
+    .featured-projects-cont{
+        padding: 0 10px;
+    }
+
+    .f-p-cont > h1{
+        font-size: 40px;
+    }
+
+    .f-p-cont > h4{
+        font-size: 20px;
+    }
+}

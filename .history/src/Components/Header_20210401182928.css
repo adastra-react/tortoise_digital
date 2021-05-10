@@ -1,0 +1,6 @@
+.header{
+    background-color: aqua;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.435ada05.chunk.css",
+    "main.js": "/static/js/main.8d09df6d.chunk.js",
+    "main.js.map": "/static/js/main.8d09df6d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cdb1e216.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cdb1e216.js.map",
+    "static/js/2.1083930c.chunk.js": "/static/js/2.1083930c.chunk.js",
+    "static/js/2.1083930c.chunk.js.map": "/static/js/2.1083930c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.435ada05.chunk.css.map": "/static/css/main.435ada05.chunk.css.map",
+    "static/js/2.1083930c.chunk.js.LICENSE.txt": "/static/js/2.1083930c.chunk.js.LICENSE.txt",
+    "static/media/008-twitter.0b266e81.svg": "/static/media/008-twitter.0b266e81.svg",
+    "static/media/027-linkedin.b610683b.svg": "/static/media/027-linkedin.b610683b.svg",
+    "static/media/029-instagram.46b73e79.svg": "/static/media/029-instagram.46b73e79.svg",
+    "static/media/Header.css": "/static/media/CharacterTypeNewsSansLightWide.7dfc3bfe.ttf",
+    "static/media/LOGOs.61098b7c.svg": "/static/media/LOGOs.61098b7c.svg",
+    "static/media/Footer.css": "/static/media/Modulus-Bold.215a0922.otf",
+    "static/media/cancel.fca50269.svg": "/static/media/cancel.fca50269.svg",
+    "static/media/Home.css": "/static/media/macbook-pro.ba682664.jpg",
+    "static/media/Agency.css": "/static/media/tortoise-about-background.36d22db6.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdb1e216.js",
+    "static/js/2.1083930c.chunk.js",
+    "static/css/main.435ada05.chunk.css",
+    "static/js/main.8d09df6d.chunk.js"
+  ]
+}

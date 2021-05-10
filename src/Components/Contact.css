@@ -1,0 +1,175 @@
+.contact{
+    overflow: hidden;
+}
+
+.contact-container{
+    height: 100vh;
+}
+
+.contact-container{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.contact-text-cont{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: azure; */
+    height: 400px;
+    padding: 0 80px;
+}
+
+.contact-p-text{
+    color: #af4261;
+    font-family: Modulus-bold;
+    font-size: 30px;
+}
+
+.contact-info-text{
+    font-size: 120px;
+    font-family: Modulus-bold;
+    font-weight: 900;
+    letter-spacing: -px;
+    /* position: absolute; */
+    bottom: 150px;
+    background-clip: text;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.contact-para{
+    font-family: Modulus-bold;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+#particle-cont-contact{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.contact-bar-div{
+    display: flex;
+    
+}
+
+.contact-bar-card-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.card-contact-info-cont-txt{
+    font-family: Modulus-bold;
+}
+
+.card-contact-info-cont-heading{
+    font-family: Modulus-bold;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.contact-bar-link{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-social-icon{
+    height: 20px
+}
+
+.card-social-info-cont{
+    /* background-color: ; */
+    display: flex;
+    width: 150px;
+    justify-content:space-around
+}
+
+.map-container{
+    height: 500px;
+    padding: 60px;
+    
+}
+
+.contact-block-bar{
+    padding: 70px 0;
+}
+
+#gmap_canvas{
+    border-radius: 30px !important;
+}
+
+@media only screen and (max-width: 654px) {
+    .contact-info-text{
+        font-size: 70px;
+    }
+
+    .contact-para{
+
+    }
+
+    .agency-container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .contact-bar-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-card{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .contact-info-text{
+        font-size: 50px;
+    }
+
+    .contact-container{
+        height: auto;
+    }
+
+    .contact-para{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 407px) {
+    .contact-info-text{
+        font-size: 40px;
+    }
+
+    .contact-para{
+        font-size: 10px;
+    }
+    
+    .contact-lg-text-cont{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .contact-text-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

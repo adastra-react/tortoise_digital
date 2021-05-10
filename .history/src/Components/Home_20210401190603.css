@@ -1,0 +1,26 @@
+@font-face{
+    src: url(../Assets//Fonts//Modulus-www.Dfonts.org/Modulus-Bold.otf);
+    font-family: Modulus-bold;
+}
+
+.home{
+ 
+ 
+}
+
+.landing-section-title{
+    font-size: 130px;
+    font-family: Modulus-bold;
+    font-weight: 900;
+    position: absolute;
+    bottom: 0;
+    color: linear-gradient(to bottom right,  , blue);
+}
+
+.landing-section{
+    position: relative;
+    padding-left: 70px;
+    /* background-color: ; */
+    height: 75vh;
+}
+

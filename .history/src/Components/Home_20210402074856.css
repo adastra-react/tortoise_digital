@@ -1,0 +1,87 @@
+@font-face{
+    src: url(../Assets//Fonts//Modulus-www.Dfonts.org/Modulus-Bold.otf);
+    font-family: Modulus-bold;
+}
+
+.home{
+ 
+ 
+}
+
+.landing-section-title{
+    font-size: 130px;
+    font-family: Modulus-bold;
+    font-weight: 900;
+    letter-spacing: -px;
+    position: absolute;
+    bottom: 150px;
+    background-clip: text;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.landing-section-sub-text{
+    font-family: Modulus-bold;
+    font-size: 35px;
+    font-weight: 800;
+    opacity: .5;
+}
+
+.landing-section{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 70px;
+    /* background-color: ; */
+    height: 79vh;
+}
+
+.particle-cont{
+    position: absolute;
+    top: 0;
+    height: 88vh;
+    z-index: -10;
+}
+
+.featured-projects-cont{
+    padding-top: 300px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 60px;
+}
+
+.f-p-title, .f-p-sub-title{
+    font-family: Modulus-bold;
+}
+
+.f-p-title{
+    font-size: 70px;
+}
+
+.f-p-sub-title{
+    font-size: 30px;
+    opacity: .5;
+}
+
+.projects-cont{
+    /* background-color: blanchedalmond; */
+}
+
+.top-display, .bottom-display{
+    display: flex;
+    padding: 20px 0;
+}
+
+.showcase-1{
+    background-color: aqua;
+    height: 600px;
+    flex: 2;
+}
+
+.showcase-2{
+    background-color: black;
+    height: 300px;
+    flex: 1;
+}

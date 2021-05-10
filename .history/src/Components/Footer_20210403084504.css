@@ -1,0 +1,20 @@
+.footer{
+    height: 600px;
+    background: whitesmoke;
+
+}
+
+.footer-top-info-section{
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer-container{
+  background: white;
+  width: auto;
+  height: 100%;
+}
+
+.social-icon{
+    height: 30px;
+}

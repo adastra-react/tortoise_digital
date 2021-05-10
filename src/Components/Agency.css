@@ -1,0 +1,65 @@
+.agency{
+    overflow: hidden;
+}
+
+.agency-container{ 
+    padding: 0 60px;
+    height: 100vh;
+}
+
+.agency-container{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+
+.agency-container-main-text{
+    font-size: 90px;
+    font-family: Modulus-bold;
+    font-weight: 900;
+    letter-spacing: -px;
+    /* position: absolute; */
+    bottom: 150px;
+    background-clip: text;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.picture-section{
+    height: 300px;
+}
+
+.picture-section-container{
+    background-image: url(../Assets/Images/tortoise-about-background.jpeg);
+    height: 100%;
+    background-size: contain;
+    background-repeat: inherit;
+}
+
+@media only screen and (max-width: 654px) {
+    .agency-container-main-text{
+        font-size: 60px;
+    }
+
+    .landing-section-sub-text{
+
+    }
+
+    .agency-container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+}
+
+@media only screen and (max-width: 329px) {
+    .agency-container-main-text{
+        font-size: 50px;
+    }
+}
